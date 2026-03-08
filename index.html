@@ -1,49 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Nstore-ecommerce</title>
-</head>
-<body>
-    <header>
-        <h1><span>N</span><span>store</span></h1>
+  </head>
+
+  <body>
+    <script src="script/main.js"></script>
+    <header class="head">
+      <h1>
+        <span class="blue-logo">N</span><span class="orange-logo">store</span>
+      </h1>
     </header>
 
-    <nav>
-           <ul>
-            <li>accueil</li>
-            <li>Produits</li>
-            <li>contact</li>
-            <li>A propos</li>
-           </ul> 
-        </nav>
-        <div>
-            <img src="" alt="">
-        </div>
+    <nav class="menu">
+      <a href="#acc">Accueil</a>
+      <a href="#pro">Produits</a>
+      <a href="#propos">A propos</a>
+      <a href="#cont">contact</a>
+    </nav>
 
     <main>
-        <section>
-            <h2>Accueil</h2>
-        </section>
+      <section>
+        <div>
+          <img src="assets/icons/logo.png" alt=""/>
+        </div>
+        <h2 id="acc">Accueil</h2>
+      </section>
 
-        <section>
-            <h2>Produits</h2>
-        </section>
+      <section>
+        <h2 id="pro">Produits</h2>
+      </section>
 
-        <section>
-            <h2>A propos</h2>
-        </section>
+      <section>
+        <h2 id="propos">A propos</h2>
+      </section>
 
+      <section>
+        <h2 id="cont">Contact</h2>
+      </section>
     </main>
 
-    <aside>
-        <h2>Contact</h2>
-    </aside>
-
     <footer>
-        <p>Copyright - tous droits reservés</p>
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-whatsapp"></i></span>
+        <span><i class="fa-brands fa-linkedin"></i></span>
+        <span><i class="fa-brands fa-github"></i></span>
+      <p>Copyright - tous droits reservés</p>
     </footer>
-</body>
+  </body>
 </html>

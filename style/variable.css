@@ -1,0 +1,106 @@
+/* ===========================
+   DESIGN SYSTEM - THEME
+   =========================== */
+
+:root {
+  /* === BRAND COLORS === */
+
+  --primary-blue: #1E90FF;
+  /* Couleur principale de la marque
+     Header, liens, éléments de confiance */
+
+  --primary-blue-hover: #1C86EE;
+  /* Hover des éléments principaux */
+
+  --secondary-orange: #FFA500;
+  /* Boutons d’action (CTA), badges */
+
+  --secondary-orange-hover: #FF8C00;
+  /* Hover des CTA */
+
+  --accent-color: #FF6F00;
+  /* Accent visuel : focus, hover, highlights */
+
+  /* === BACKGROUNDS === */
+
+  --background-light: #F9F9F9;
+  /* Fond global clair */
+
+  --background-section: #F1F5F9;
+  /* Sections secondaires */
+
+  --card-background: #FFFFFF;
+  /* Cartes, modales, formulaires */
+
+  --overlay-background: rgba(0, 0, 0, 0.6);
+  /* Overlay modales / panier */
+
+  /* === TEXT COLORS === */
+
+  --text-dark: #333333;
+  /* Texte principal */
+
+  --text-muted: #6B7280;
+  /* Texte secondaire, labels */
+
+  --text-light: #FFFFFF;
+  /* Texte sur fond foncé */
+
+  /* === BORDERS & DIVIDERS === */
+
+  --border-color: #E0E0E0;
+  /* Bordures légères */
+
+  --border-focus: #1E90FF;
+  /* Bordure focus inputs */
+
+  /* === STATUS COLORS === */
+
+  --success-color: #16A34A;
+  /* Succès : validation, ajout panier */
+
+  --error-color: #DC2626;
+  /* Erreur : formulaire invalide */
+
+  --warning-color: #F59E0B;
+  /* Avertissement */
+
+  /* === BUTTON STATES === */
+
+  --button-disabled: #CBD5E1;
+  /* Boutons désactivés */
+
+  --button-text-disabled: #94A3B8;
+  /* Texte bouton désactivé */
+
+  /* === SHADOWS === */
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.12);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+
+  /* === TRANSITIONS === */
+
+  --transition-fast: 0.2s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease;
+}
+
+/* ===========================
+   DARK MODE
+   =========================== */
+
+[data-theme="dark"] {
+  --background-light: #0F172A;
+  --background-section: #020617;
+  --card-background: #1E293B;
+
+  --text-dark: #E5E7EB;
+  --text-muted: #9CA3AF;
+
+  --border-color: #334155;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.6);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.7);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.8);
+}
